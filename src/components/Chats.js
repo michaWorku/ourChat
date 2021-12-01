@@ -46,7 +46,7 @@ const Chats = () => {
           axios
             .post("https://api.chatengine.io/users/", formdata, {
               headers: {
-                "private-key": process.env.REACT_APP_CHAT_ENGINE_KEY,
+                "private-key": "871d7476-0f03-44c8-9372-c3c8a5a660f0",
               },
             })
             .then(() => setLoading(false))
